@@ -15,8 +15,18 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
-
-		<mapping class="br.com.CRUDSpringHibernateMaven.model.Produto"/>
+		
+	<!-- 	Conexão GSH -->
+<!-- 		<property name="hibernate.connection.username">java_teste</property> -->
+<!-- 		<property name="hibernate.connection.password">123</property> -->
+<!-- 		<property name="hibernate.connection.url">jdbc:oracle:thin:@192.168.0.55:1521:gshjava/LeonardoNarciso</property> -->
+<!-- 		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>		 -->
+<!-- 		<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property> -->
+<!-- 		<property name="hibernate.hbm2ddl.auto">update</property> -->
+<!-- 		<property name="show_sql">true</property> -->
+<!-- 		<property name="format_sql">true</property> -->
+		
+		
 		
 	</session-factory>
 
