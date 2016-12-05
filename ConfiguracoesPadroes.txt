@@ -1,0 +1,16 @@
+﻿-------------------------------------------------------
+BANCO DE DADOS: POSTGRESQL
+
+SCRIPTS NECESSARIOS:
+
+CREATE TABLE produto
+(
+  id serial NOT NULL,
+  nome character varying(50),
+  descricao character varying(100),
+  preco double precision,
+  datacadastro date,
+  idUsuario int, 
+  CONSTRAINT produto_pkey PRIMARY KEY (id)
+)
+-------------------------------------------------------
