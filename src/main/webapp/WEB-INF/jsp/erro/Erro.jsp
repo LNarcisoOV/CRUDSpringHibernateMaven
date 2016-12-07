@@ -9,15 +9,13 @@
 <title>Error Page!</title>
 </head>
 <body>
-	<fieldset>
-		<jsp:include page="/WEB-INF/jsp/menu/Menu.jsp" />
-	</fieldset>
+	<jsp:include page="/WEB-INF/jsp/menu/Menu.jsp" />
 	<br/>
 	<br/>
 	<br/>
 	<br/>
 	<br/>
-	Um erro ocorreu!
+	UM ERRO OCORREU!!!!!!!!!!!!!!!
 
 </body>
 </html>
