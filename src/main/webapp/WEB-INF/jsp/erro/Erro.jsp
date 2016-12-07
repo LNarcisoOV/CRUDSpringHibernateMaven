@@ -10,13 +10,14 @@
 </head>
 <body>
 	<fieldset>
-		<jsp:include page="/WEB-INF/jsp/menu/MenuLogin.jsp" />
+		<jsp:include page="/WEB-INF/jsp/menu/Menu.jsp" />
 	</fieldset>
-	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 	Um erro ocorreu!
 
-	<div>
-		<img src="<c:url value='/imagens/pageNotFound.png'/>" />
-	</div>
 </body>
 </html>

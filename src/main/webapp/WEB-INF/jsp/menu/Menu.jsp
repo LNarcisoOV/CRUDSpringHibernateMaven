@@ -6,6 +6,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="lib/jquery-3.1.1.js">
+</script>
 <title>Menu principal</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
 			</ul>
 			<ul>
 				<li>
-					<a href="<c:url value='/produto/visualizarProdutos' />">Visualizar Produtos</a>
+					<a href="<c:url value='/produto/PaginaDeConsulta' />">Consultar Produtos</a>
 				</li>
 			</ul>
 		</div>
